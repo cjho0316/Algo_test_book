@@ -10,25 +10,27 @@ for value in S:
   else:
     result *= value
 
-=======
-while True:
-  if i >= (len(S)-1):
-    break
-
-  if S[i] == 0:
-    result += S[i+1]
-    i += 2
-
-  elif result == 0:
-    result += S[i]
-    i += 1
-  
-  else:
-    result *= S[i]
-    i += 1
->>>>>>> aa431fb43484b6c3c979c00b760aa4b3e6483b54
-
 print(result)
+
+# =======
+# while True:
+#   if i >= (len(S)-1):
+#     break
+
+#   if S[i] == 0:
+#     result += S[i+1]
+#     i += 2
+
+#   elif result == 0:
+#     result += S[i]
+#     i += 1
+  
+#   else:
+#     result *= S[i]
+#     i += 1
+# >>>>>>> aa431fb43484b6c3c979c00b760aa4b3e6483b54
+
+
 
 # x or + 연산자를 사용해서 가장 큰 수를 만들기
 # 0이 있는경우를 제외하고 모든 자연수 곱하기 
