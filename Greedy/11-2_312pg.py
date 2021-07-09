@@ -2,6 +2,7 @@ S = list(map(int, input())) # 입력값을 split없이 list 사용하면 독방�
 result = 0
 i = 0 
 
+<<<<<<< HEAD
 for value in S:
   if value < 2 or result == 0:   # 0또는 1일때 더하기
     result += value
@@ -9,6 +10,23 @@ for value in S:
   else:
     result *= value
 
+=======
+while True:
+  if i >= (len(S)-1):
+    break
+
+  if S[i] == 0:
+    result += S[i+1]
+    i += 2
+
+  elif result == 0:
+    result += S[i]
+    i += 1
+  
+  else:
+    result *= S[i]
+    i += 1
+>>>>>>> aa431fb43484b6c3c979c00b760aa4b3e6483b54
 
 print(result)
 
